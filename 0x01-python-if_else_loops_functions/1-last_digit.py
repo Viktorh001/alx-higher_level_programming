@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10000, 10000)
+number = random.randint(-10000, 10000)#finds random numbers
 if number < 0:
     last_num = number % -10
 elif number >= 0:
